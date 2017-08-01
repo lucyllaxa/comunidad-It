@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <style type="text/css">
+
+      h1 {
+        background-color: purple;
+      }
+      form {
+        background-color: pink;
+        cursor: pointer;
+        border: 1px solid rosybrown;
+        width: 200px;
+        height: 50px;
+      }
+      
+      input {
+          background:yellow;
+      }
+       #input2 {
+          background:green;
+      }
+       #input3 {
+          background:pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login por post</h1>
+    <hr />
+    <form action="login.html" method="post" enctype="application/x-www-form-urlencoded">
+      <input type="text" name="username" placeholder="username" size="30" maxlength="12" />
+      <input type="password" name="password" placeholder="password" size="30" maxlength="8" id="input2" />
+      <input type="submit" name="submit" value="Login" id="input3" style="color: white;" />
+    </form>
+  </body>
+</html>
